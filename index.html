@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currency Converter App</title>
+    <link rel="stylesheet" href="Currency.css">
+    <script src="https://kit.fontawesome.com/6fc3daec2a.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="container">
+        <h2>Currency Converter</h2>
+        <form action="#">
+            <div class="amount">
+                <p>Enter Amount</p>
+                <input type="number" name="name" id="text" >
+            </div>
+            <div class="dropdown">
+                <div class="from">
+                    <p>From</p>
+                    <div class="selectcontainer">
+                        <img src="" alt="">
+                        <select name="from" id="from">
+
+                        </select>
+                    </div>
+                </div>
+                <i class="fa-sharp-duotone fa-solid fa-right-left fa-xl"></i>
+                <div class="to">
+                    <p>To</p>
+                    <div class="selectcontainer">
+                        <img src="" alt="">
+                        <select name="to" id="to">
+
+                        </select>
+                    </div>
+                </div>
+            </div>
+            <div class="msg">0</div>
+            <button id="btn">Get Exchange Rate</button>
+        </form>
+    </div>
+    <script src="countries.js"></script>
+    <script src="app.js"></script>
+</body>
+
+</html>
